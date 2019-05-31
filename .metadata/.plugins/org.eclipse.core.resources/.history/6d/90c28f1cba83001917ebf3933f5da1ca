@@ -1,0 +1,24 @@
+package user;
+
+
+//Press Ctrl + Shift + O for automaticall import
+//https://www.mkyong.com/eclipse/how-to-import-class-automatically-in-eclipse/
+import java.util.Scanner;
+
+//https://www.youtube.com/watch?v=wQbEH4tVMJA
+public class Scaninput {
+
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Enter a number:");
+		
+		Scanner sc = new Scanner(System.in) ;
+		int a = sc.nextInt();
+		System.out.println("Hasilnya: " + a);
+		
+		
+	}
+
+}

@@ -1,0 +1,22 @@
+package user;
+
+public abstract class orang {
+	
+		void nama() {
+			System.out.println("Nama seseorang tuliskan!") ;
+		}
+		
+		abstract void jenisKelamin() ;
+			
+		
+		
+		abstract void pekerjaan() ;
+			
+		
+		
+		
+		abstract void status() ;
+			
+		
+	
+}

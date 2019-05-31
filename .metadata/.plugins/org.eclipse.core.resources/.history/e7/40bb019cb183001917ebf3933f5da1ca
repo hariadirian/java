@@ -1,0 +1,64 @@
+package user;
+
+
+
+public class main extends orang {
+	
+	String nama ="No Name" ;
+	
+	
+//	The tutorial from : https://www.youtube.com/watch?v=wQbEH4tVMJA
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	
+		
+		// ini akan error jika tidak di-extends di atas
+		orang o = new main() ;
+		
+		o.nama();
+		
+		main c = new main();
+		String nama = c.getNama() ;
+		
+		System.out.println(nama);
+		o.jenisKelamin() ;
+		
+	}
+		// Wajib menginisiasi SEMUA metoda kelas Abstrak induknya
+		
+		void jenisKelamin(){
+			String sex ;
+			sex = getSex() ;
+			System.out.println("Jenis kelamin:" + sex);
+		}
+		
+		
+		void pekerjaan(){
+			
+			
+		}
+		
+		
+		void status() {
+			
+		}
+		
+		void setNama(String namapar)
+		{
+			nama = namapar ;
+		}
+		
+		
+		String getNama() {
+			
+			return "Rian Irawan Hariadi" ;
+		}
+		
+		String getSex() {
+			
+			return "Laki-laki" ;
+		}
+			
+	
+
+}

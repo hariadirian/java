@@ -1,0 +1,90 @@
+package user;
+
+
+
+public class main extends orang {
+	
+	String nama ="No Name" ;
+	String profesi = "Rumah Tangga" ;
+	
+	
+//	The tutorial from : https://www.youtube.com/watch?v=wQbEH4tVMJA
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	
+		
+		// ini akan error jika tidak di-extends di atas
+		orang o = new main() ;
+		main c = new main();
+		System.out.println("Begin.....");
+		
+		Scaninput scan = new Scaninput() ;
+		
+		String nama = scan.main2() ;
+		int umur = scan.getUmur() ;
+		
+	
+		
+		
+		c.setProfesi("Freelancer") ;
+		
+		System.out.println("Awal :"+ c.nama); 
+		o.nama();
+		System.out.println("Umur" + umur);
+		o.setAlamat("Jl.Sembakung II No.15 Bekasi");
+		
+		
+		
+		
+		System.out.println(nama);
+		o.jenisKelamin() ;
+		
+		System.out.println("Profesi: "+ c.profesi);
+		System.out.println("Alamat: " + o.getAlamat());
+		
+		
+	}
+		// Wajib menginisiasi SEMUA metoda kelas Abstrak induknya
+		
+		
+		void jenisKelamin(){
+			String sex ;
+			sex = getSex() ;
+			System.out.println("Jenis kelamin:" + sex);
+		}
+		
+		
+		void pekerjaan(){
+			
+			
+		}
+		
+		
+		void status() {
+			
+		}
+		
+		void setNama(String namapar)
+		{
+			nama = namapar ;
+		}
+		
+		
+		void setProfesi(String parProfesi) {
+			profesi = "Programmer" ;
+		}
+		
+		
+		String getNama() {
+			
+			return "Rian Irawan Hariadi" ;
+		}
+		
+		String getSex() {
+			
+			return "Laki-laki" ;
+		}
+			
+	
+
+}

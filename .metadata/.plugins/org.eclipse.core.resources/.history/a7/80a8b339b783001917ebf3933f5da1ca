@@ -1,0 +1,16 @@
+package user;
+
+import java.util.Scanner;
+
+//https://www.youtube.com/watch?v=wQbEH4tVMJA
+public class Scanner {
+
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Scanner");
+		
+	}
+
+}

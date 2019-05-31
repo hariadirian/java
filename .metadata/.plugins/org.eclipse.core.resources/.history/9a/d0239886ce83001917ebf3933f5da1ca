@@ -1,0 +1,18 @@
+package com.ahlicoding.hrd;
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Program aplikasi HRD berbasis Java dengan terkoneksi Database : \n"
+				+ "1. Data Nama Karyawan \n"
+				+ "2. Data Setting Gaji Berdasarkan Jabatan \n"
+				+ "3. Data Simpan Rekap Prestasi (Bonus atau Hukuman) \n"
+				+ "4. Data Setting Tunjangan berdasarkan jumlah tanggungan anak \n"
+				+ "5. Data Setting Perusahaan (Nama Perusahaan , Alamat Perusahaan, kurs Dollar-Rupiah, dsb) \n"
+				+ "6. Data Simpan Rekap Simpan Total Seluruh Pemberian Gaji dari bulan ke bulan");
+		
+		System.out.println("Aplikasi dibuat dengan Platform Java, hasil akhir Java FX dan Spring Boot ");
+	}
+
+}

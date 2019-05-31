@@ -1,0 +1,27 @@
+package keuangan;
+
+public class HargaTernak {
+	private double ppn = 10.5 ;
+	
+	public int harga_sapi = 9000 ;
+	public int harga_kambing = 1500 ;
+	public int harga_ayam = 20 ;
+	
+	
+	void setPajak(double var_ppn) {
+		
+		double hrg = harga_sapi ;
+		hrg = hrg - (ppn/100*hrg) ;
+		
+		int harga = (int) hrg ;
+		this.harga_sapi = 5000 ;
+		
+	}
+	
+	
+	public int getHargaSapi() {
+		
+		return this.harga_sapi ;
+	}
+	
+}
